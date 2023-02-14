@@ -1,0 +1,670 @@
+[2023-01-25 22:25:00,954] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:25:00,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:25:00,971] {logging_mixin.py:115} INFO - [2023-01-25 22:25:00,970] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:25:08,920] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:25:08,938] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:25:08,958] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:25:09,168] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:25:10,027] {logging_mixin.py:115} INFO - [2023-01-25 22:25:10,026] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:25:10,146] {logging_mixin.py:115} INFO - [2023-01-25 22:25:10,146] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:25:10,203] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 9.268 seconds
+[2023-01-25 22:25:40,378] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:25:40,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:25:40,383] {logging_mixin.py:115} INFO - [2023-01-25 22:25:40,382] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:25:42,618] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:25:42,632] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:25:42,645] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:25:42,801] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:25:43,310] {logging_mixin.py:115} INFO - [2023-01-25 22:25:43,309] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:25:43,413] {logging_mixin.py:115} INFO - [2023-01-25 22:25:43,413] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:25:43,447] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.081 seconds
+[2023-01-25 22:26:14,391] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:26:14,394] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:26:14,396] {logging_mixin.py:115} INFO - [2023-01-25 22:26:14,396] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:26:16,549] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:26:16,562] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:26:16,577] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:26:16,745] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:26:17,309] {logging_mixin.py:115} INFO - [2023-01-25 22:26:17,308] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:26:17,411] {logging_mixin.py:115} INFO - [2023-01-25 22:26:17,411] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:26:17,449] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.066 seconds
+[2023-01-25 22:26:48,198] {processor.py:153} INFO - Started process (PID=491) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:26:48,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:26:48,202] {logging_mixin.py:115} INFO - [2023-01-25 22:26:48,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:26:50,494] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:26:50,509] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:26:50,523] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:26:50,697] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:26:51,182] {logging_mixin.py:115} INFO - [2023-01-25 22:26:51,180] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:26:51,278] {logging_mixin.py:115} INFO - [2023-01-25 22:26:51,277] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:26:51,314] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.125 seconds
+[2023-01-25 22:27:22,495] {processor.py:153} INFO - Started process (PID=610) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:27:22,497] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:27:22,499] {logging_mixin.py:115} INFO - [2023-01-25 22:27:22,499] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:27:24,483] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:27:24,497] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:27:24,513] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:27:24,667] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:27:25,139] {logging_mixin.py:115} INFO - [2023-01-25 22:27:25,138] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:27:25,223] {logging_mixin.py:115} INFO - [2023-01-25 22:27:25,223] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:27:25,257] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.770 seconds
+[2023-01-25 22:27:56,364] {processor.py:153} INFO - Started process (PID=733) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:27:56,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:27:56,368] {logging_mixin.py:115} INFO - [2023-01-25 22:27:56,367] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:27:58,343] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:27:58,358] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:27:58,371] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:27:58,521] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:27:59,018] {logging_mixin.py:115} INFO - [2023-01-25 22:27:59,017] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:27:59,123] {logging_mixin.py:115} INFO - [2023-01-25 22:27:59,122] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:27:59,168] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.812 seconds
+[2023-01-25 22:28:29,387] {processor.py:153} INFO - Started process (PID=843) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:28:29,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:28:29,392] {logging_mixin.py:115} INFO - [2023-01-25 22:28:29,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:28:31,568] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:28:31,585] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:28:31,600] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:28:31,856] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:28:32,636] {logging_mixin.py:115} INFO - [2023-01-25 22:28:32,635] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:28:32,757] {logging_mixin.py:115} INFO - [2023-01-25 22:28:32,757] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:28:32,803] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.438 seconds
+[2023-01-25 22:29:03,278] {processor.py:153} INFO - Started process (PID=963) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:29:03,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:29:03,284] {logging_mixin.py:115} INFO - [2023-01-25 22:29:03,284] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:29:05,404] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:29:05,418] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:29:05,431] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:29:05,580] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:29:06,055] {logging_mixin.py:115} INFO - [2023-01-25 22:29:06,054] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:29:06,155] {logging_mixin.py:115} INFO - [2023-01-25 22:29:06,154] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:29:06,193] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.926 seconds
+[2023-01-25 22:29:36,841] {processor.py:153} INFO - Started process (PID=1083) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:29:36,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:29:36,846] {logging_mixin.py:115} INFO - [2023-01-25 22:29:36,846] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:29:38,856] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:29:38,869] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:29:38,882] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:29:39,043] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:29:39,542] {logging_mixin.py:115} INFO - [2023-01-25 22:29:39,541] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:29:39,638] {logging_mixin.py:115} INFO - [2023-01-25 22:29:39,638] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:29:39,673] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.843 seconds
+[2023-01-25 22:30:10,236] {processor.py:153} INFO - Started process (PID=1199) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:30:10,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:30:10,241] {logging_mixin.py:115} INFO - [2023-01-25 22:30:10,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:30:12,325] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:30:12,339] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:30:12,352] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:30:12,532] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:30:13,050] {logging_mixin.py:115} INFO - [2023-01-25 22:30:13,049] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:30:13,149] {logging_mixin.py:115} INFO - [2023-01-25 22:30:13,148] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:30:13,190] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.963 seconds
+[2023-01-25 22:30:43,895] {processor.py:153} INFO - Started process (PID=1333) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:30:43,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:30:43,904] {logging_mixin.py:115} INFO - [2023-01-25 22:30:43,904] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:30:46,403] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:30:46,456] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:30:46,482] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:30:46,651] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:30:47,234] {logging_mixin.py:115} INFO - [2023-01-25 22:30:47,233] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:30:47,332] {logging_mixin.py:115} INFO - [2023-01-25 22:30:47,332] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:30:47,373] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.493 seconds
+[2023-01-25 22:31:17,571] {processor.py:153} INFO - Started process (PID=1454) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:31:17,573] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:31:17,575] {logging_mixin.py:115} INFO - [2023-01-25 22:31:17,575] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:31:19,606] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:31:19,622] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:31:19,635] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:31:19,792] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:31:20,277] {logging_mixin.py:115} INFO - [2023-01-25 22:31:20,276] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:31:20,366] {logging_mixin.py:115} INFO - [2023-01-25 22:31:20,366] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:31:20,402] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.840 seconds
+[2023-01-25 22:31:50,580] {processor.py:153} INFO - Started process (PID=1573) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:31:50,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:31:50,584] {logging_mixin.py:115} INFO - [2023-01-25 22:31:50,584] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:31:52,696] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:31:52,709] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:31:52,721] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:31:52,862] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:31:53,311] {logging_mixin.py:115} INFO - [2023-01-25 22:31:53,310] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:31:53,401] {logging_mixin.py:115} INFO - [2023-01-25 22:31:53,401] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:31:53,433] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.862 seconds
+[2023-01-25 22:32:23,740] {processor.py:153} INFO - Started process (PID=1693) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:32:23,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:32:23,744] {logging_mixin.py:115} INFO - [2023-01-25 22:32:23,744] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:32:25,752] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:32:25,766] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:32:25,778] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:32:25,943] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:32:26,440] {logging_mixin.py:115} INFO - [2023-01-25 22:32:26,439] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:32:26,526] {logging_mixin.py:115} INFO - [2023-01-25 22:32:26,526] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:32:26,562] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.830 seconds
+[2023-01-25 22:32:56,765] {processor.py:153} INFO - Started process (PID=1815) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:32:56,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:32:56,779] {logging_mixin.py:115} INFO - [2023-01-25 22:32:56,778] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:32:59,228] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:32:59,245] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:32:59,263] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:32:59,452] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:32:59,992] {logging_mixin.py:115} INFO - [2023-01-25 22:32:59,990] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:33:00,106] {logging_mixin.py:115} INFO - [2023-01-25 22:33:00,105] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:33:00,162] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.410 seconds
+[2023-01-25 22:33:30,641] {processor.py:153} INFO - Started process (PID=1939) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:33:30,644] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:33:30,646] {logging_mixin.py:115} INFO - [2023-01-25 22:33:30,646] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:33:32,844] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:33:32,858] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:33:32,871] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:33:33,026] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:33:33,700] {logging_mixin.py:115} INFO - [2023-01-25 22:33:33,699] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:33:33,796] {logging_mixin.py:115} INFO - [2023-01-25 22:33:33,795] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:33:33,834] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.202 seconds
+[2023-01-25 22:34:04,101] {processor.py:153} INFO - Started process (PID=2059) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:34:04,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:34:04,106] {logging_mixin.py:115} INFO - [2023-01-25 22:34:04,105] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:34:06,170] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:34:06,183] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:34:06,195] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:34:06,346] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:34:06,853] {logging_mixin.py:115} INFO - [2023-01-25 22:34:06,852] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:34:06,956] {logging_mixin.py:115} INFO - [2023-01-25 22:34:06,956] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:34:06,998] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.905 seconds
+[2023-01-25 22:34:37,656] {processor.py:153} INFO - Started process (PID=2175) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:34:37,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:34:37,662] {logging_mixin.py:115} INFO - [2023-01-25 22:34:37,662] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:34:39,636] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:34:39,649] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:34:39,664] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:34:39,830] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:34:40,345] {logging_mixin.py:115} INFO - [2023-01-25 22:34:40,343] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:34:40,440] {logging_mixin.py:115} INFO - [2023-01-25 22:34:40,440] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:34:40,478] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.832 seconds
+[2023-01-25 22:35:11,158] {processor.py:153} INFO - Started process (PID=2288) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:35:11,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:35:11,164] {logging_mixin.py:115} INFO - [2023-01-25 22:35:11,163] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:35:13,262] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:35:13,277] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:35:13,291] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:35:13,455] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:35:14,045] {logging_mixin.py:115} INFO - [2023-01-25 22:35:14,043] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:35:14,198] {logging_mixin.py:115} INFO - [2023-01-25 22:35:14,197] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:35:14,250] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.105 seconds
+[2023-01-25 22:35:44,622] {processor.py:153} INFO - Started process (PID=2412) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:35:44,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:35:44,645] {logging_mixin.py:115} INFO - [2023-01-25 22:35:44,645] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:35:47,044] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:35:47,062] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:35:47,080] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:35:47,315] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:35:47,933] {logging_mixin.py:115} INFO - [2023-01-25 22:35:47,932] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:35:48,080] {logging_mixin.py:115} INFO - [2023-01-25 22:35:48,080] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:35:48,125] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.546 seconds
+[2023-01-25 22:36:18,399] {processor.py:153} INFO - Started process (PID=2534) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:36:18,406] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:36:18,409] {logging_mixin.py:115} INFO - [2023-01-25 22:36:18,409] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:36:20,837] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:36:20,853] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:36:20,868] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:36:21,049] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:36:21,560] {logging_mixin.py:115} INFO - [2023-01-25 22:36:21,559] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:36:21,676] {logging_mixin.py:115} INFO - [2023-01-25 22:36:21,675] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:36:21,726] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.340 seconds
+[2023-01-25 22:36:52,325] {processor.py:153} INFO - Started process (PID=2648) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:36:52,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:36:52,330] {logging_mixin.py:115} INFO - [2023-01-25 22:36:52,330] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:36:54,161] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:36:54,174] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:36:54,188] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:36:54,351] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:36:54,849] {logging_mixin.py:115} INFO - [2023-01-25 22:36:54,848] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:36:54,963] {logging_mixin.py:115} INFO - [2023-01-25 22:36:54,962] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:36:55,004] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.687 seconds
+[2023-01-25 22:37:25,176] {processor.py:153} INFO - Started process (PID=2765) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:37:25,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:37:25,182] {logging_mixin.py:115} INFO - [2023-01-25 22:37:25,182] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:37:27,503] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:37:27,520] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:37:27,538] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:37:27,734] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:37:28,314] {logging_mixin.py:115} INFO - [2023-01-25 22:37:28,313] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:37:28,429] {logging_mixin.py:115} INFO - [2023-01-25 22:37:28,429] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:37:28,481] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.317 seconds
+[2023-01-25 22:37:59,287] {processor.py:153} INFO - Started process (PID=2879) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:37:59,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:37:59,293] {logging_mixin.py:115} INFO - [2023-01-25 22:37:59,293] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:38:01,463] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:38:01,480] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:38:01,494] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:38:01,675] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:38:02,239] {logging_mixin.py:115} INFO - [2023-01-25 22:38:02,237] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:38:02,348] {logging_mixin.py:115} INFO - [2023-01-25 22:38:02,348] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:38:02,388] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.117 seconds
+[2023-01-25 22:38:32,693] {processor.py:153} INFO - Started process (PID=2997) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:38:32,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:38:32,699] {logging_mixin.py:115} INFO - [2023-01-25 22:38:32,698] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:38:34,680] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:38:34,694] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:38:34,707] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:38:34,854] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:38:35,370] {logging_mixin.py:115} INFO - [2023-01-25 22:38:35,369] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:38:35,480] {logging_mixin.py:115} INFO - [2023-01-25 22:38:35,479] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:38:35,518] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.839 seconds
+[2023-01-25 22:39:06,075] {processor.py:153} INFO - Started process (PID=3114) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:39:06,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:39:06,081] {logging_mixin.py:115} INFO - [2023-01-25 22:39:06,080] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:39:08,135] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:39:08,152] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:39:08,167] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:39:08,352] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:39:08,857] {logging_mixin.py:115} INFO - [2023-01-25 22:39:08,856] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:39:08,968] {logging_mixin.py:115} INFO - [2023-01-25 22:39:08,967] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:39:09,024] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.968 seconds
+[2023-01-25 22:39:39,837] {processor.py:153} INFO - Started process (PID=3230) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:39:39,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:39:39,842] {logging_mixin.py:115} INFO - [2023-01-25 22:39:39,842] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:39:41,787] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:39:41,804] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:39:41,816] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:39:41,974] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:39:42,518] {logging_mixin.py:115} INFO - [2023-01-25 22:39:42,517] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:39:42,614] {logging_mixin.py:115} INFO - [2023-01-25 22:39:42,614] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:39:42,649] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.825 seconds
+[2023-01-25 22:40:12,730] {processor.py:153} INFO - Started process (PID=3343) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:40:12,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:40:12,735] {logging_mixin.py:115} INFO - [2023-01-25 22:40:12,734] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:40:14,698] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:40:14,712] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:40:14,728] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:40:14,888] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:40:15,397] {logging_mixin.py:115} INFO - [2023-01-25 22:40:15,396] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:40:15,491] {logging_mixin.py:115} INFO - [2023-01-25 22:40:15,490] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:40:15,524] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.803 seconds
+[2023-01-25 22:40:45,833] {processor.py:153} INFO - Started process (PID=3473) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:40:45,836] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:40:45,838] {logging_mixin.py:115} INFO - [2023-01-25 22:40:45,838] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:40:47,812] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:40:47,830] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:40:47,845] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:40:48,007] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:40:48,510] {logging_mixin.py:115} INFO - [2023-01-25 22:40:48,509] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:40:48,603] {logging_mixin.py:115} INFO - [2023-01-25 22:40:48,603] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:40:48,642] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.822 seconds
+[2023-01-25 22:41:19,376] {processor.py:153} INFO - Started process (PID=3591) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:41:19,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:41:19,380] {logging_mixin.py:115} INFO - [2023-01-25 22:41:19,380] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:41:21,141] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:41:21,154] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:41:21,166] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:41:21,311] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:41:21,771] {logging_mixin.py:115} INFO - [2023-01-25 22:41:21,770] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:41:21,863] {logging_mixin.py:115} INFO - [2023-01-25 22:41:21,862] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:41:21,897] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.529 seconds
+[2023-01-25 22:41:52,796] {processor.py:153} INFO - Started process (PID=3708) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:41:52,797] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:41:52,799] {logging_mixin.py:115} INFO - [2023-01-25 22:41:52,799] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:41:54,565] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:41:54,582] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:41:54,594] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:41:54,750] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:41:55,232] {logging_mixin.py:115} INFO - [2023-01-25 22:41:55,231] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:41:55,332] {logging_mixin.py:115} INFO - [2023-01-25 22:41:55,331] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:41:55,369] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.580 seconds
+[2023-01-25 22:42:25,595] {processor.py:153} INFO - Started process (PID=3825) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:42:25,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:42:25,600] {logging_mixin.py:115} INFO - [2023-01-25 22:42:25,600] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:42:27,254] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:42:27,271] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:42:27,284] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:42:27,432] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:42:27,913] {logging_mixin.py:115} INFO - [2023-01-25 22:42:27,912] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:42:28,005] {logging_mixin.py:115} INFO - [2023-01-25 22:42:28,005] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:42:28,040] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.453 seconds
+[2023-01-25 22:42:58,392] {processor.py:153} INFO - Started process (PID=3940) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:42:58,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:42:58,397] {logging_mixin.py:115} INFO - [2023-01-25 22:42:58,397] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:43:00,284] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:43:00,298] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:43:00,310] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:43:00,467] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:43:00,971] {logging_mixin.py:115} INFO - [2023-01-25 22:43:00,970] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:43:01,080] {logging_mixin.py:115} INFO - [2023-01-25 22:43:01,080] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:43:01,119] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.735 seconds
+[2023-01-25 22:43:31,350] {processor.py:153} INFO - Started process (PID=4056) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:43:31,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:43:31,356] {logging_mixin.py:115} INFO - [2023-01-25 22:43:31,356] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:43:33,278] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:43:33,292] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:43:33,306] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:43:33,463] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:43:34,070] {logging_mixin.py:115} INFO - [2023-01-25 22:43:34,068] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:43:34,183] {logging_mixin.py:115} INFO - [2023-01-25 22:43:34,183] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:43:34,224] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.884 seconds
+[2023-01-25 22:44:04,335] {processor.py:153} INFO - Started process (PID=4172) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:44:04,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:44:04,340] {logging_mixin.py:115} INFO - [2023-01-25 22:44:04,339] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:44:06,371] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:44:06,385] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:44:06,399] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:44:06,564] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:44:07,107] {logging_mixin.py:115} INFO - [2023-01-25 22:44:07,106] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:44:07,215] {logging_mixin.py:115} INFO - [2023-01-25 22:44:07,215] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:44:07,253] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.934 seconds
+[2023-01-25 22:44:37,472] {processor.py:153} INFO - Started process (PID=4288) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:44:37,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:44:37,477] {logging_mixin.py:115} INFO - [2023-01-25 22:44:37,477] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:44:39,463] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:44:39,480] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:44:39,494] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:44:39,645] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:44:40,118] {logging_mixin.py:115} INFO - [2023-01-25 22:44:40,117] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:44:40,210] {logging_mixin.py:115} INFO - [2023-01-25 22:44:40,209] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:44:40,243] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.780 seconds
+[2023-01-25 22:45:10,582] {processor.py:153} INFO - Started process (PID=4423) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:45:10,584] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:45:10,586] {logging_mixin.py:115} INFO - [2023-01-25 22:45:10,586] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:45:12,425] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:45:12,438] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:45:12,451] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:45:12,599] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:45:13,062] {logging_mixin.py:115} INFO - [2023-01-25 22:45:13,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:45:13,151] {logging_mixin.py:115} INFO - [2023-01-25 22:45:13,150] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:45:13,185] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.610 seconds
+[2023-01-25 22:45:43,323] {processor.py:153} INFO - Started process (PID=4545) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:45:43,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:45:43,327] {logging_mixin.py:115} INFO - [2023-01-25 22:45:43,327] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:45:45,357] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:45:45,370] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:45:45,383] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:45:45,539] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:45:46,004] {logging_mixin.py:115} INFO - [2023-01-25 22:45:46,003] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:45:46,088] {logging_mixin.py:115} INFO - [2023-01-25 22:45:46,088] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:45:46,124] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.809 seconds
+[2023-01-25 22:46:16,524] {processor.py:153} INFO - Started process (PID=4663) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:46:16,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:46:16,529] {logging_mixin.py:115} INFO - [2023-01-25 22:46:16,528] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:46:18,293] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:46:18,306] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:46:18,318] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:46:18,465] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:46:18,922] {logging_mixin.py:115} INFO - [2023-01-25 22:46:18,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:46:19,009] {logging_mixin.py:115} INFO - [2023-01-25 22:46:19,008] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:46:19,041] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.526 seconds
+[2023-01-25 22:46:49,195] {processor.py:153} INFO - Started process (PID=4782) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:46:49,197] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:46:49,200] {logging_mixin.py:115} INFO - [2023-01-25 22:46:49,200] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:46:51,048] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:46:51,062] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:46:51,073] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:46:51,229] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:46:51,708] {logging_mixin.py:115} INFO - [2023-01-25 22:46:51,707] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:46:51,805] {logging_mixin.py:115} INFO - [2023-01-25 22:46:51,804] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:46:51,839] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.652 seconds
+[2023-01-25 22:47:22,410] {processor.py:153} INFO - Started process (PID=4900) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:47:22,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:47:22,414] {logging_mixin.py:115} INFO - [2023-01-25 22:47:22,414] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:47:24,427] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:47:24,443] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:47:24,456] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:47:24,619] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:47:25,149] {logging_mixin.py:115} INFO - [2023-01-25 22:47:25,148] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:47:25,252] {logging_mixin.py:115} INFO - [2023-01-25 22:47:25,251] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:47:25,288] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.886 seconds
+[2023-01-25 22:47:56,064] {processor.py:153} INFO - Started process (PID=5027) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:47:56,066] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:47:56,069] {logging_mixin.py:115} INFO - [2023-01-25 22:47:56,068] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:47:58,215] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:47:58,228] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:47:58,241] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:47:58,400] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:47:58,924] {logging_mixin.py:115} INFO - [2023-01-25 22:47:58,923] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:47:59,021] {logging_mixin.py:115} INFO - [2023-01-25 22:47:59,021] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:47:59,055] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.001 seconds
+[2023-01-25 22:48:29,819] {processor.py:153} INFO - Started process (PID=5153) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:48:29,821] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:48:29,823] {logging_mixin.py:115} INFO - [2023-01-25 22:48:29,822] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:48:31,645] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:48:31,658] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:48:31,671] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:48:31,820] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:48:32,322] {logging_mixin.py:115} INFO - [2023-01-25 22:48:32,321] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:48:32,416] {logging_mixin.py:115} INFO - [2023-01-25 22:48:32,416] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:48:32,452] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.641 seconds
+[2023-01-25 22:49:02,848] {processor.py:153} INFO - Started process (PID=5279) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:49:02,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:49:02,851] {logging_mixin.py:115} INFO - [2023-01-25 22:49:02,851] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:49:04,561] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:49:04,579] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:49:04,592] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:49:04,743] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:49:05,197] {logging_mixin.py:115} INFO - [2023-01-25 22:49:05,195] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:49:05,283] {logging_mixin.py:115} INFO - [2023-01-25 22:49:05,282] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:49:05,314] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.474 seconds
+[2023-01-25 22:49:35,692] {processor.py:153} INFO - Started process (PID=5405) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:49:35,694] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:49:35,696] {logging_mixin.py:115} INFO - [2023-01-25 22:49:35,696] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:49:37,286] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:49:37,298] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:49:37,310] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:49:37,446] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:49:37,891] {logging_mixin.py:115} INFO - [2023-01-25 22:49:37,890] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:49:37,974] {logging_mixin.py:115} INFO - [2023-01-25 22:49:37,974] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:49:38,009] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.324 seconds
+[2023-01-25 22:50:08,647] {processor.py:153} INFO - Started process (PID=5527) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:50:08,649] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:50:08,651] {logging_mixin.py:115} INFO - [2023-01-25 22:50:08,651] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:50:10,349] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:50:10,363] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:50:10,375] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:50:10,528] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:50:10,989] {logging_mixin.py:115} INFO - [2023-01-25 22:50:10,988] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:50:11,081] {logging_mixin.py:115} INFO - [2023-01-25 22:50:11,080] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:50:11,115] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.476 seconds
+[2023-01-25 22:50:41,408] {processor.py:153} INFO - Started process (PID=5643) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:50:41,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:50:41,413] {logging_mixin.py:115} INFO - [2023-01-25 22:50:41,413] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:50:43,203] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:50:43,216] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:50:43,228] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:50:43,399] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:50:43,983] {logging_mixin.py:115} INFO - [2023-01-25 22:50:43,982] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:50:44,081] {logging_mixin.py:115} INFO - [2023-01-25 22:50:44,080] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:50:44,117] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.718 seconds
+[2023-01-25 22:51:14,333] {processor.py:153} INFO - Started process (PID=5768) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:51:14,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:51:14,338] {logging_mixin.py:115} INFO - [2023-01-25 22:51:14,337] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:51:16,198] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:51:16,215] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:51:16,232] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:51:16,413] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:51:16,944] {logging_mixin.py:115} INFO - [2023-01-25 22:51:16,943] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:51:17,045] {logging_mixin.py:115} INFO - [2023-01-25 22:51:17,045] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:51:17,081] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.757 seconds
+[2023-01-25 22:51:47,383] {processor.py:153} INFO - Started process (PID=5892) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:51:47,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:51:47,387] {logging_mixin.py:115} INFO - [2023-01-25 22:51:47,387] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:51:49,285] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:51:49,299] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:51:49,312] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:51:49,478] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:51:49,943] {logging_mixin.py:115} INFO - [2023-01-25 22:51:49,942] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:51:50,030] {logging_mixin.py:115} INFO - [2023-01-25 22:51:50,030] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:51:50,062] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.687 seconds
+[2023-01-25 22:52:20,658] {processor.py:153} INFO - Started process (PID=6011) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:52:20,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:52:20,662] {logging_mixin.py:115} INFO - [2023-01-25 22:52:20,662] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:52:22,242] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:52:22,255] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:52:22,267] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:52:22,412] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:52:22,850] {logging_mixin.py:115} INFO - [2023-01-25 22:52:22,849] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:52:22,935] {logging_mixin.py:115} INFO - [2023-01-25 22:52:22,935] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:52:22,966] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.316 seconds
+[2023-01-25 22:52:53,396] {processor.py:153} INFO - Started process (PID=6127) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:52:53,401] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:52:53,404] {logging_mixin.py:115} INFO - [2023-01-25 22:52:53,404] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:52:55,674] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:52:55,691] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:52:55,711] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:52:56,000] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:52:56,929] {logging_mixin.py:115} INFO - [2023-01-25 22:52:56,926] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:52:57,152] {logging_mixin.py:115} INFO - [2023-01-25 22:52:57,151] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:52:57,224] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.845 seconds
+[2023-01-25 22:53:27,733] {processor.py:153} INFO - Started process (PID=6244) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:53:27,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:53:27,737] {logging_mixin.py:115} INFO - [2023-01-25 22:53:27,737] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:53:29,618] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:53:29,635] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:53:29,648] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:53:29,831] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:53:30,323] {logging_mixin.py:115} INFO - [2023-01-25 22:53:30,322] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:53:30,420] {logging_mixin.py:115} INFO - [2023-01-25 22:53:30,420] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:53:30,458] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.736 seconds
+[2023-01-25 22:54:00,805] {processor.py:153} INFO - Started process (PID=6358) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:54:00,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:54:00,809] {logging_mixin.py:115} INFO - [2023-01-25 22:54:00,808] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:54:02,808] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:54:02,824] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:54:02,838] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:54:03,031] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:54:03,548] {logging_mixin.py:115} INFO - [2023-01-25 22:54:03,547] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:54:03,647] {logging_mixin.py:115} INFO - [2023-01-25 22:54:03,647] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:54:03,683] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.887 seconds
+[2023-01-25 22:54:34,030] {processor.py:153} INFO - Started process (PID=6491) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:54:34,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:54:34,035] {logging_mixin.py:115} INFO - [2023-01-25 22:54:34,035] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:54:35,973] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:54:35,986] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:54:36,005] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:54:36,163] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:54:36,640] {logging_mixin.py:115} INFO - [2023-01-25 22:54:36,639] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:54:36,740] {logging_mixin.py:115} INFO - [2023-01-25 22:54:36,739] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:54:36,772] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.750 seconds
+[2023-01-25 22:55:07,431] {processor.py:153} INFO - Started process (PID=6609) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:55:07,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 22:55:07,435] {logging_mixin.py:115} INFO - [2023-01-25 22:55:07,434] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:55:09,436] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 22:55:09,449] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:55:09,461] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 22:55:09,622] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 22:55:10,115] {logging_mixin.py:115} INFO - [2023-01-25 22:55:10,114] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 22:55:10,215] {logging_mixin.py:115} INFO - [2023-01-25 22:55:10,215] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 22:55:10,250] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.830 seconds
+[2023-01-25 23:00:04,817] {processor.py:153} INFO - Started process (PID=6694) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:00:04,825] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:00:04,830] {logging_mixin.py:115} INFO - [2023-01-25 23:00:04,829] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:00:07,715] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:00:07,740] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:00:07,760] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:00:08,090] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:00:08,968] {logging_mixin.py:115} INFO - [2023-01-25 23:00:08,966] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:00:09,187] {logging_mixin.py:115} INFO - [2023-01-25 23:00:09,186] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:00:09,248] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 4.453 seconds
+[2023-01-25 23:05:12,228] {processor.py:153} INFO - Started process (PID=6808) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:05:12,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:05:12,233] {logging_mixin.py:115} INFO - [2023-01-25 23:05:12,233] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:05:15,125] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:05:15,156] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:05:15,187] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:05:15,414] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:05:16,226] {logging_mixin.py:115} INFO - [2023-01-25 23:05:16,224] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:05:16,435] {logging_mixin.py:115} INFO - [2023-01-25 23:05:16,434] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:05:16,504] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 4.299 seconds
+[2023-01-25 23:05:47,233] {processor.py:153} INFO - Started process (PID=6925) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:05:47,236] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:05:47,238] {logging_mixin.py:115} INFO - [2023-01-25 23:05:47,238] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:05:48,925] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:05:48,938] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:05:48,949] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:05:49,096] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:05:49,560] {logging_mixin.py:115} INFO - [2023-01-25 23:05:49,559] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:05:49,660] {logging_mixin.py:115} INFO - [2023-01-25 23:05:49,660] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:05:49,695] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.471 seconds
+[2023-01-25 23:15:22,807] {processor.py:153} INFO - Started process (PID=7020) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:15:22,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:15:22,821] {logging_mixin.py:115} INFO - [2023-01-25 23:15:22,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:15:26,652] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:15:26,670] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:15:26,683] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:15:26,965] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:15:28,090] {logging_mixin.py:115} INFO - [2023-01-25 23:15:28,089] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:15:28,300] {logging_mixin.py:115} INFO - [2023-01-25 23:15:28,299] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:15:28,390] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 5.615 seconds
+[2023-01-25 23:15:59,225] {processor.py:153} INFO - Started process (PID=7135) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:15:59,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:15:59,240] {logging_mixin.py:115} INFO - [2023-01-25 23:15:59,239] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:16:02,127] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:16:02,147] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:16:02,160] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:16:02,341] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:16:02,868] {logging_mixin.py:115} INFO - [2023-01-25 23:16:02,867] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:16:02,977] {logging_mixin.py:115} INFO - [2023-01-25 23:16:02,977] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:16:03,025] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.819 seconds
+[2023-01-25 23:30:17,566] {processor.py:153} INFO - Started process (PID=7247) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:30:17,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:30:17,570] {logging_mixin.py:115} INFO - [2023-01-25 23:30:17,569] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:30:20,074] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:30:20,088] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:30:20,101] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:30:20,302] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:30:21,149] {logging_mixin.py:115} INFO - [2023-01-25 23:30:21,147] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:30:21,313] {logging_mixin.py:115} INFO - [2023-01-25 23:30:21,313] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:30:21,381] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 3.825 seconds
+[2023-01-25 23:30:52,259] {processor.py:153} INFO - Started process (PID=7364) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:30:52,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:30:52,274] {logging_mixin.py:115} INFO - [2023-01-25 23:30:52,273] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:30:54,276] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:30:54,289] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:30:54,300] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:30:54,457] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:30:55,025] {logging_mixin.py:115} INFO - [2023-01-25 23:30:55,024] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:30:55,122] {logging_mixin.py:115} INFO - [2023-01-25 23:30:55,121] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:30:55,158] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.921 seconds
+[2023-01-25 23:35:37,278] {processor.py:153} INFO - Started process (PID=7459) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:35:37,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:35:37,282] {logging_mixin.py:115} INFO - [2023-01-25 23:35:37,282] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:35:40,003] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:35:40,034] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:35:40,054] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:35:40,301] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:35:41,201] {logging_mixin.py:115} INFO - [2023-01-25 23:35:41,199] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:35:41,401] {logging_mixin.py:115} INFO - [2023-01-25 23:35:41,400] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:35:41,453] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 4.185 seconds
+[2023-01-25 23:45:53,763] {processor.py:153} INFO - Started process (PID=7573) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:45:53,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:45:53,772] {logging_mixin.py:115} INFO - [2023-01-25 23:45:53,771] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:45:57,134] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:45:57,163] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:45:57,183] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:45:57,411] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:45:58,009] {logging_mixin.py:115} INFO - [2023-01-25 23:45:58,008] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:45:58,124] {logging_mixin.py:115} INFO - [2023-01-25 23:45:58,123] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:45:58,165] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 4.414 seconds
+[2023-01-25 23:46:28,557] {processor.py:153} INFO - Started process (PID=7688) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:46:28,560] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:46:28,562] {logging_mixin.py:115} INFO - [2023-01-25 23:46:28,562] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:46:30,333] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:46:30,346] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:46:30,357] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:46:30,500] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:46:30,952] {logging_mixin.py:115} INFO - [2023-01-25 23:46:30,951] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:46:31,036] {logging_mixin.py:115} INFO - [2023-01-25 23:46:31,036] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:46:31,076] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.529 seconds
+[2023-01-25 23:59:23,906] {processor.py:153} INFO - Started process (PID=7801) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:59:23,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:59:23,914] {logging_mixin.py:115} INFO - [2023-01-25 23:59:23,913] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:59:26,010] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:59:26,024] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:59:26,037] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:59:26,202] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:59:26,689] {logging_mixin.py:115} INFO - [2023-01-25 23:59:26,688] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-25 23:59:26,785] {logging_mixin.py:115} INFO - [2023-01-25 23:59:26,785] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-25 23:59:26,820] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.926 seconds
+[2023-01-25 23:59:57,468] {processor.py:153} INFO - Started process (PID=7918) to work on /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:59:57,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/utils/dag.py for tasks to queue
+[2023-01-25 23:59:57,474] {logging_mixin.py:115} INFO - [2023-01-25 23:59:57,474] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/utils/dag.py
+[2023-01-25 23:59:59,389] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/param.py:62 DeprecationWarning: The use of non-json-serializable params is deprecated and will be removed in a future release
+[2023-01-25 23:59:59,401] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:59:59,412] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py:144 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-25 23:59:59,560] {processor.py:651} INFO - DAG(s) dict_keys(['jla-utils-config-check']) retrieved from /opt/airflow/dags/utils/dag.py
+[2023-01-26 00:00:00,014] {logging_mixin.py:115} INFO - [2023-01-26 00:00:00,012] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-26 00:00:00,107] {logging_mixin.py:115} INFO - [2023-01-26 00:00:00,107] {dag.py:2972} INFO - Setting next_dagrun for jla-utils-config-check to None, run_after=None
+[2023-01-26 00:00:00,140] {processor.py:161} INFO - Processing /opt/airflow/dags/utils/dag.py took 2.686 seconds

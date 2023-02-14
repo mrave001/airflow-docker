@@ -1,0 +1,91 @@
+[2023-01-26 16:35:14,415] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.retrieve_paymentech_files manual__2023-01-26T16:31:38.393014+00:00 [queued]>
+[2023-01-26 16:35:14,472] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.retrieve_paymentech_files manual__2023-01-26T16:31:38.393014+00:00 [queued]>
+[2023-01-26 16:35:14,474] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 16:35:14,477] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-01-26 16:35:14,479] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 16:35:14,578] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): retrieve_paymentech_files> on 2023-01-26 16:31:38.393014+00:00
+[2023-01-26 16:35:14,595] {standard_task_runner.py:52} INFO - Started process 1172 to run task
+[2023-01-26 16:35:14,606] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'jla-psp-paymentech-load', 'retrieve_paymentech_files', 'manual__2023-01-26T16:31:38.393014+00:00', '--job-id', '217', '--raw', '--subdir', 'DAGS_FOLDER/jla-psp-paymentech-load.py', '--cfg-path', '/tmp/tmp9an3g62d', '--error-file', '/tmp/tmpr36k21pm']
+[2023-01-26 16:35:14,612] {standard_task_runner.py:80} INFO - Job 217: Subtask retrieve_paymentech_files
+[2023-01-26 16:35:15,064] {task_command.py:371} INFO - Running <TaskInstance: jla-psp-paymentech-load.retrieve_paymentech_files manual__2023-01-26T16:31:38.393014+00:00 [running]> on host a8cd24867728
+[2023-01-26 16:35:15,662] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=barobinson@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=jla-psp-paymentech-load
+AIRFLOW_CTX_TASK_ID=retrieve_paymentech_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-26T16:31:38.393014+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-26T16:31:38.393014+00:00
+[2023-01-26 16:35:15,698] {base.py:68} INFO - Using connection ID 'zing' for task execution.
+[2023-01-26 16:35:15,705] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/providers/ssh/hooks/ssh.py:224: DeprecationWarning: Parameter `timeout` is deprecated.Please use `conn_timeout` instead.The old option `timeout` will be removed in a future version.
+  stacklevel=1,
+
+[2023-01-26 16:35:15,708] {ssh.py:279} WARNING - Remote Identification Change is not verified. This won't protect against Man-In-The-Middle attacks
+[2023-01-26 16:35:15,709] {ssh.py:286} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-01-26 16:35:16,037] {transport.py:1874} INFO - Connected (version 2.0, client OpenSSH_8.8)
+[2023-01-26 16:35:16,246] {ssh.py:328} INFO - Failed to connect. Sleeping before retry attempt 1
+[2023-01-26 16:35:19,748] {transport.py:1874} INFO - Connected (version 2.0, client OpenSSH_8.8)
+[2023-01-26 16:35:19,908] {ssh.py:328} INFO - Failed to connect. Sleeping before retry attempt 2
+[2023-01-26 16:35:23,183] {transport.py:1874} INFO - Connected (version 2.0, client OpenSSH_8.8)
+[2023-01-26 16:35:23,347] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/jla-psp-paymentech-load.py", line 224, in retrieve_paymentech_files__func
+    with closing(ssh.get_conn().open_sftp()) as sftp_client:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/ssh/hooks/ssh.py", line 335, in get_conn
+    before_sleep=log_before_sleep,
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/ssh/hooks/ssh.py", line 338, in get_conn
+    client.connect(**connect_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/client.py", line 679, in _auth
+    key_filename, pkey_class, passphrase
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/client.py", line 588, in _key_from_filepath
+    key = klass.from_private_key_file(key_path, password)
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/pkey.py", line 249, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/rsakey.py", line 64, in __init__
+    self._from_private_key_file(filename, password)
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/rsakey.py", line 194, in _from_private_key_file
+    data = self._read_private_key_file("RSA", filename, password)
+  File "/home/airflow/.local/lib/python3.7/site-packages/paramiko/pkey.py", line 321, in _read_private_key_file
+    with open(filename, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/keys/id_rsa_zing_jla'
+[2023-01-26 16:35:23,407] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=jla-psp-paymentech-load, task_id=retrieve_paymentech_files, execution_date=20230126T163138, start_date=20230126T163514, end_date=20230126T163523
+[2023-01-26 16:35:23,470] {standard_task_runner.py:97} ERROR - Failed to execute job 217 for task retrieve_paymentech_files ([Errno 2] No such file or directory: '/opt/airflow/dags/keys/id_rsa_zing_jla'; 1172)
+[2023-01-26 16:35:23,529] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-26 16:35:23,867] {xcom.py:586} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2023-01-26 16:35:23,901] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-01-26 16:35:23,903] {logging_mixin.py:115} INFO - :ampelred: AIRFLOW TASK FAILURE :ampelred:
+
+DAG:                             jla-psp-paymentech-load
+TASKS:                          retrieve_paymentech_files
+EXECUTION TIME:      2023-01-26T16:31:38.393014+00:00
+REASON:                       [Errno 2] No such file or directory: '/opt/***/dags/keys/id_rsa_zing_jla'
+LOG:                              http://localhost:8080/log?execution_date=2023-01-26T16%3A31%3A38.393014%2B00%3A00&task_id=retrieve_paymentech_files&dag_id=jla-psp-paymentech-load&map_index=-1
+[2023-01-26 16:35:24,011] {logging_mixin.py:115} INFO - slack_connection
+[2023-01-26 16:35:24,013] {logging_mixin.py:115} INFO - ***
+[2023-01-26 16:35:24,015] {logging_mixin.py:115} INFO - #fsa-alerts-dev
+[2023-01-26 16:35:24,032] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/providers/http/operators/http.py:83: DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+  super().__init__(**kwargs)
+
+[2023-01-26 16:35:24,078] {base.py:68} INFO - Using connection ID 'slack_connection' for task execution.
+[2023-01-26 16:35:24,086] {http.py:129} INFO - Sending 'POST' to url: https://hooks.slack.com/services/***
+[2023-01-26 16:35:25,211] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

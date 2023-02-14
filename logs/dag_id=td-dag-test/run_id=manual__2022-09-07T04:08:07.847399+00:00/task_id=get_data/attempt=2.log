@@ -1,0 +1,35 @@
+[2022-10-04 15:34:12,736] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: td-dag-test.get_data manual__2022-09-07T04:08:07.847399+00:00 [queued]>
+[2022-10-04 15:34:12,778] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: td-dag-test.get_data manual__2022-09-07T04:08:07.847399+00:00 [queued]>
+[2022-10-04 15:34:12,780] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 15:34:12,783] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-10-04 15:34:12,786] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 15:34:13,076] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_data> on 2022-09-07 04:08:07.847399+00:00
+[2022-10-04 15:34:13,139] {standard_task_runner.py:52} INFO - Started process 5667 to run task
+[2022-10-04 15:34:13,201] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'td-dag-test', 'get_data', 'manual__2022-09-07T04:08:07.847399+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/td_dag_test.py', '--cfg-path', '/tmp/tmpxe13y70r', '--error-file', '/tmp/tmp82r7ey85']
+[2022-10-04 15:34:13,249] {standard_task_runner.py:80} INFO - Job 195: Subtask get_data
+[2022-10-04 15:34:13,851] {task_command.py:371} INFO - Running <TaskInstance: td-dag-test.get_data manual__2022-09-07T04:08:07.847399+00:00 [running]> on host f2e7b0d61203
+[2022-10-04 15:34:14,590] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mravelo@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=td-dag-test
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-07T04:08:07.847399+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-07T04:08:07.847399+00:00
+[2022-10-04 15:34:14,618] {logging_mixin.py:115} INFO - --- INFO: Move data process started ---
+[2022-10-04 15:34:14,719] {base.py:68} INFO - Using connection ID 'teradata' for task execution.
+[2022-10-04 15:34:41,082] {logging_mixin.py:115} INFO - we came back from Teradata
+[2022-10-04 15:34:41,110] {logging_mixin.py:115} INFO -     environment_id  ...     last_modified_by
+0           10001  ...  EMERGENOW\brobinson
+1               1  ...  EMERGENOW\brobinson
+2           20001  ...  EMERGENOW\brobinson
+
+[3 rows x 17 columns]
+[2022-10-04 15:34:41,113] {logging_mixin.py:115} INFO - --- INFO: Move data process complete ---
+[2022-10-04 15:34:41,115] {logging_mixin.py:115} INFO - --- INFO: CSV file created ---
+[2022-10-04 15:34:41,130] {python.py:173} INFO - Done. Returned value was: None
+[2022-10-04 15:34:41,154] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=td-dag-test, task_id=get_data, execution_date=20220907T040807, start_date=20221004T153412, end_date=20221004T153441
+[2022-10-04 15:34:41,266] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-04 15:34:41,367] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

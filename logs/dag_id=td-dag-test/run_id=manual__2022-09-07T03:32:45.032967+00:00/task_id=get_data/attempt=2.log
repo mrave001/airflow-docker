@@ -1,0 +1,56 @@
+[2022-10-04 15:34:10,386] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: td-dag-test.get_data manual__2022-09-07T03:32:45.032967+00:00 [queued]>
+[2022-10-04 15:34:10,454] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: td-dag-test.get_data manual__2022-09-07T03:32:45.032967+00:00 [queued]>
+[2022-10-04 15:34:10,456] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 15:34:10,457] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-10-04 15:34:10,460] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 15:34:10,619] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_data> on 2022-09-07 03:32:45.032967+00:00
+[2022-10-04 15:34:10,646] {standard_task_runner.py:52} INFO - Started process 5570 to run task
+[2022-10-04 15:34:10,747] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'td-dag-test', 'get_data', 'manual__2022-09-07T03:32:45.032967+00:00', '--job-id', '192', '--raw', '--subdir', 'DAGS_FOLDER/td_dag_test.py', '--cfg-path', '/tmp/tmpgqs8sk9r', '--error-file', '/tmp/tmp30ienedy']
+[2022-10-04 15:34:10,796] {standard_task_runner.py:80} INFO - Job 192: Subtask get_data
+[2022-10-04 15:34:11,332] {task_command.py:371} INFO - Running <TaskInstance: td-dag-test.get_data manual__2022-09-07T03:32:45.032967+00:00 [running]> on host f2e7b0d61203
+[2022-10-04 15:34:11,961] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mravelo@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=td-dag-test
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-07T03:32:45.032967+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-07T03:32:45.032967+00:00
+[2022-10-04 15:34:11,985] {logging_mixin.py:115} INFO - --- INFO: Move data process started ---
+[2022-10-04 15:34:12,013] {base.py:68} INFO - Using connection ID 'teradata' for task execution.
+[2022-10-04 15:34:21,750] {local_task_job.py:221} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2022-10-04 15:34:21,856] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 5570. PIDs of all processes in the group: [5570]
+[2022-10-04 15:34:21,894] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 5570
+[2022-10-04 15:34:25,176] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/td_dag_test.py", line 65, in get_data_func__
+    df = td.get_pandas_df("SELECT * FROM Sandbox.acct_jla_ns_environments")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 128, in get_pandas_df
+    with closing(self.get_conn()) as conn:
+  File "/opt/airflow/plugins/hooks/teradata.py", line 33, in get_conn
+    jars=[teradata_loc]) #, tdgs_config_loc])
+  File "/home/airflow/.local/lib/python3.7/site-packages/jaydebeapi/__init__.py", line 412, in connect
+    jconn = _jdbc_connect(jclassname, url, driver_args, jars, libs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jaydebeapi/__init__.py", line 199, in _jdbc_connect_jpype
+    convertStrings=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jpype/_core.py", line 220, in startJVM
+    initializeResources()
+  File "/home/airflow/.local/lib/python3.7/site-packages/jpype/_core.py", line 240, in initializeResources
+    _jpype._java_lang_String = _jpype.JClass("java.lang.String")
+  File "/home/airflow/.local/lib/python3.7/site-packages/jpype/_jclass.py", line 99, in __new__
+    return _jpype._getClass(jc)
+jpype._core.JVMNotRunning:         with closing(self.get_conn()) as conn:
+
+[2022-10-04 15:34:25,259] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=td-dag-test, task_id=get_data, execution_date=20220907T033245, start_date=20221004T153410, end_date=20221004T153425
+[2022-10-04 15:34:25,351] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2022-10-04 15:34:25,357] {email.py:228} INFO - Email alerting: attempt 1
+[2022-10-04 15:34:25,906] {email.py:240} INFO - Sent an alert email to ['mravelo@groupon.com']
+[2022-10-04 15:34:26,873] {process_utils.py:75} INFO - Process psutil.Process(pid=5570, status='terminated', exitcode=143, started='15:34:10') (5570) terminated with exit code 143

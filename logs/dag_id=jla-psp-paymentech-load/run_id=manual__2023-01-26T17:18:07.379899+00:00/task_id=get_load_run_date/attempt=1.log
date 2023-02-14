@@ -1,0 +1,24 @@
+[2023-01-26 17:18:14,157] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.get_load_run_date manual__2023-01-26T17:18:07.379899+00:00 [queued]>
+[2023-01-26 17:18:14,204] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.get_load_run_date manual__2023-01-26T17:18:07.379899+00:00 [queued]>
+[2023-01-26 17:18:14,205] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 17:18:14,206] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-01-26 17:18:14,207] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 17:18:14,279] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_load_run_date> on 2023-01-26 17:18:07.379899+00:00
+[2023-01-26 17:18:14,292] {standard_task_runner.py:52} INFO - Started process 3731 to run task
+[2023-01-26 17:18:14,305] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'jla-psp-paymentech-load', 'get_load_run_date', 'manual__2023-01-26T17:18:07.379899+00:00', '--job-id', '224', '--raw', '--subdir', 'DAGS_FOLDER/jla-psp-paymentech-load.py', '--cfg-path', '/tmp/tmpwweaxx70', '--error-file', '/tmp/tmpt_en7bz_']
+[2023-01-26 17:18:14,310] {standard_task_runner.py:80} INFO - Job 224: Subtask get_load_run_date
+[2023-01-26 17:18:14,693] {task_command.py:371} INFO - Running <TaskInstance: jla-psp-paymentech-load.get_load_run_date manual__2023-01-26T17:18:07.379899+00:00 [running]> on host a8cd24867728
+[2023-01-26 17:18:15,222] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=barobinson@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=jla-psp-paymentech-load
+AIRFLOW_CTX_TASK_ID=get_load_run_date
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-26T17:18:07.379899+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-26T17:18:07.379899+00:00
+[2023-01-26 17:18:15,276] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-26 17:18:15,362] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=jla-psp-paymentech-load, task_id=get_load_run_date, execution_date=20230126T171807, start_date=20230126T171814, end_date=20230126T171815
+[2023-01-26 17:18:15,455] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-26 17:18:15,822] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,9 @@
+[2022-09-07 19:11:25,208] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/td_dag_test.py
+[2022-09-07 19:11:25,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/td_dag_test.py for tasks to queue
+[2022-09-07 19:11:25,212] {logging_mixin.py:115} INFO - [2022-09-07 19:11:25,212] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/td_dag_test.py
+[2022-09-07 19:11:25,899] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-09-07 19:11:25,902] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-09-07 19:11:25,907] {processor.py:651} INFO - DAG(s) dict_keys(['td-dag-test']) retrieved from /opt/airflow/dags/td_dag_test.py
+[2022-09-07 19:11:25,933] {logging_mixin.py:115} INFO - [2022-09-07 19:11:25,933] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-07 19:11:25,953] {logging_mixin.py:115} INFO - [2022-09-07 19:11:25,953] {dag.py:2972} INFO - Setting next_dagrun for td-dag-test to None, run_after=None
+[2022-09-07 19:11:25,965] {processor.py:161} INFO - Processing /opt/airflow/dags/td_dag_test.py took 0.759 seconds

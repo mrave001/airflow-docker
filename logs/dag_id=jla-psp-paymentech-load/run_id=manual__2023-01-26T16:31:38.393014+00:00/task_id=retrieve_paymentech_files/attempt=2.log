@@ -1,0 +1,48 @@
+[2023-01-26 16:42:03,280] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.retrieve_paymentech_files manual__2023-01-26T16:31:38.393014+00:00 [queued]>
+[2023-01-26 16:42:03,321] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.retrieve_paymentech_files manual__2023-01-26T16:31:38.393014+00:00 [queued]>
+[2023-01-26 16:42:03,323] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 16:42:03,324] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2023-01-26 16:42:03,324] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 16:42:03,397] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): retrieve_paymentech_files> on 2023-01-26 16:31:38.393014+00:00
+[2023-01-26 16:42:03,413] {standard_task_runner.py:52} INFO - Started process 1553 to run task
+[2023-01-26 16:42:03,424] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'jla-psp-paymentech-load', 'retrieve_paymentech_files', 'manual__2023-01-26T16:31:38.393014+00:00', '--job-id', '218', '--raw', '--subdir', 'DAGS_FOLDER/jla-psp-paymentech-load.py', '--cfg-path', '/tmp/tmpe6ae3lk7', '--error-file', '/tmp/tmpft5r9eqd']
+[2023-01-26 16:42:03,428] {standard_task_runner.py:80} INFO - Job 218: Subtask retrieve_paymentech_files
+[2023-01-26 16:42:03,831] {task_command.py:371} INFO - Running <TaskInstance: jla-psp-paymentech-load.retrieve_paymentech_files manual__2023-01-26T16:31:38.393014+00:00 [running]> on host a8cd24867728
+[2023-01-26 16:42:04,385] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=barobinson@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=jla-psp-paymentech-load
+AIRFLOW_CTX_TASK_ID=retrieve_paymentech_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-26T16:31:38.393014+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-26T16:31:38.393014+00:00
+[2023-01-26 16:42:04,430] {base.py:68} INFO - Using connection ID 'zing' for task execution.
+[2023-01-26 16:42:04,436] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/providers/ssh/hooks/ssh.py:224: DeprecationWarning: Parameter `timeout` is deprecated.Please use `conn_timeout` instead.The old option `timeout` will be removed in a future version.
+  stacklevel=1,
+
+[2023-01-26 16:42:04,439] {ssh.py:279} WARNING - Remote Identification Change is not verified. This won't protect against Man-In-The-Middle attacks
+[2023-01-26 16:42:04,440] {ssh.py:286} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-01-26 16:42:04,817] {transport.py:1874} INFO - Connected (version 2.0, client OpenSSH_8.8)
+[2023-01-26 16:42:06,616] {transport.py:1874} INFO - Auth banner: b'################################################################################\nWarning!!!\nUnauthorized access or use of this computer resource is regarded as a criminal\nact and the violator will be subjected to civil and criminal prosecution.\n################################################################################\n\n\n\n'
+[2023-01-26 16:42:06,621] {transport.py:1874} INFO - Authentication (publickey) successful!
+[2023-01-26 16:42:07,984] {sftp.py:158} INFO - [chan 0] Opened sftp connection (server version 3)
+[2023-01-26 16:42:08,456] {logging_mixin.py:115} INFO - Download /paymentech/2022-11-22/211643.0000198602.221122.d.A037.dfr_resp.zip to /opt/***/dags/data/211643.0000198602.221122.d.A037.dfr_resp.zip
+[2023-01-26 16:42:09,506] {logging_mixin.py:115} INFO - Download /paymentech/2022-11-22/211643.0000198602.221122.d.B157.dfr_resp.zip to /opt/***/dags/data/211643.0000198602.221122.d.B157.dfr_resp.zip
+[2023-01-26 16:42:11,228] {logging_mixin.py:115} INFO - Download /paymentech/2022-11-22/211643.0000199980.221122.d.A037.dfr_resp.zip to /opt/***/dags/data/211643.0000199980.221122.d.A037.dfr_resp.zip
+[2023-01-26 16:42:12,212] {logging_mixin.py:115} INFO - Download /paymentech/2022-11-22/211643.0000199980.221122.d.B211.dfr_resp.zip to /opt/***/dags/data/211643.0000199980.221122.d.B211.dfr_resp.zip
+[2023-01-26 16:42:13,298] {sftp.py:158} INFO - [chan 0] sftp session closed.
+[2023-01-26 16:42:13,306] {logging_mixin.py:115} INFO - ['/opt/***/dags/data/211643.0000198602.221122.d.A037.dfr_resp.zip', '/opt/***/dags/data/211643.0000198602.221122.d.B157.dfr_resp.zip', '/opt/***/dags/data/211643.0000199980.221122.d.A037.dfr_resp.zip', '/opt/***/dags/data/211643.0000199980.221122.d.B211.dfr_resp.zip']
+[2023-01-26 16:42:13,310] {logging_mixin.py:115} INFO - /opt/***/dags/data/211643.0000198602.221122.d.A037.dfr_resp.zip
+[2023-01-26 16:42:13,621] {logging_mixin.py:115} INFO - /opt/***/dags/data/211643.0000198602.221122.d.B157.dfr_resp.zip
+[2023-01-26 16:42:50,577] {logging_mixin.py:115} INFO - /opt/***/dags/data/211643.0000199980.221122.d.A037.dfr_resp.zip
+[2023-01-26 16:42:50,599] {logging_mixin.py:115} INFO - /opt/***/dags/data/211643.0000199980.221122.d.B211.dfr_resp.zip
+[2023-01-26 16:42:51,764] {logging_mixin.py:115} INFO - c8d13fb2d470eb9d736e5f6cca1314dd1dcbda93c0a4054ac02f3c71864321c9
+[2023-01-26 16:42:53,602] {logging_mixin.py:115} INFO - 3cb85cbf681c8d1ccc22f2902ce242f0449f3f567e530461a0d8f6fc182fa8c9
+[2023-01-26 16:42:53,606] {logging_mixin.py:115} INFO - c9f9ef22658677f1594b19578c990b56f1ec8a098c984bc6185037510464f022
+[2023-01-26 16:42:53,655] {logging_mixin.py:115} INFO - 4fb72196dbae0ea62522579077f033ea5ded4004b8c24c8d6d25f34b8f7443fb
+[2023-01-26 16:42:53,722] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-26 16:42:53,796] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=jla-psp-paymentech-load, task_id=retrieve_paymentech_files, execution_date=20230126T163138, start_date=20230126T164203, end_date=20230126T164253
+[2023-01-26 16:42:53,906] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-26 16:42:54,139] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

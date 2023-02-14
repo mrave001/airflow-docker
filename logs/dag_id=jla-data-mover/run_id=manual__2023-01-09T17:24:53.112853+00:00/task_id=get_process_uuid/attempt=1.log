@@ -1,0 +1,71 @@
+[2023-01-09 17:25:06,156] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-data-mover.get_process_uuid manual__2023-01-09T17:24:53.112853+00:00 [queued]>
+[2023-01-09 17:25:06,209] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-data-mover.get_process_uuid manual__2023-01-09T17:24:53.112853+00:00 [queued]>
+[2023-01-09 17:25:06,211] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-09 17:25:06,213] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-01-09 17:25:06,215] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-09 17:25:06,330] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_process_uuid> on 2023-01-09 17:24:53.112853+00:00
+[2023-01-09 17:25:06,345] {standard_task_runner.py:52} INFO - Started process 296 to run task
+[2023-01-09 17:25:06,369] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'jla-data-mover', 'get_process_uuid', 'manual__2023-01-09T17:24:53.112853+00:00', '--job-id', '205', '--raw', '--subdir', 'DAGS_FOLDER/Mover/dag.py', '--cfg-path', '/tmp/tmpn8bwi6u9', '--error-file', '/tmp/tmpybk4s2vi']
+[2023-01-09 17:25:06,375] {standard_task_runner.py:80} INFO - Job 205: Subtask get_process_uuid
+[2023-01-09 17:25:06,641] {task_command.py:371} INFO - Running <TaskInstance: jla-data-mover.get_process_uuid manual__2023-01-09T17:24:53.112853+00:00 [running]> on host f44165fb6ebe
+[2023-01-09 17:25:06,993] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=jla-data-mover
+AIRFLOW_CTX_TASK_ID=get_process_uuid
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-09T17:24:53.112853+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-09T17:24:53.112853+00:00
+[2023-01-09 17:25:07,227] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/Mover/dag.py", line 96, in get_process_uuid__func
+    kwargs['ti'].xcom_push(key="slack_webhook_token", value=BaseHook.get_connection(DEFAULT_ARGS['slack_conn_id']).password)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack_connection` isn't defined
+[2023-01-09 17:25:07,259] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=jla-data-mover, task_id=get_process_uuid, execution_date=20230109T172453, start_date=20230109T172506, end_date=20230109T172507
+[2023-01-09 17:25:07,305] {standard_task_runner.py:97} ERROR - Failed to execute job 205 for task get_process_uuid (The conn_id `slack_connection` isn't defined; 296)
+[2023-01-09 17:25:07,343] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-09 17:25:07,505] {xcom.py:586} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2023-01-09 17:25:07,538] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-01-09 17:25:07,541] {logging_mixin.py:115} INFO - :ampelred: AIRFLOW TASK FAILURE :ampelred:
+
+DAG:                             jla-data-mover
+TASKS:                          get_process_uuid
+EXECUTION TIME:      2023-01-09T17:24:53.112853+00:00
+REASON:                       The conn_id `slack_connection` isn't defined
+LOG:                              http://localhost:8080/log?execution_date=2023-01-09T17%3A24%3A53.112853%2B00%3A00&task_id=get_process_uuid&dag_id=jla-data-mover&map_index=-1
+[2023-01-09 17:25:07,607] {logging_mixin.py:115} INFO - slack_connection
+[2023-01-09 17:25:07,608] {logging_mixin.py:115} INFO - None
+[2023-01-09 17:25:07,609] {logging_mixin.py:115} INFO - None
+[2023-01-09 17:25:07,614] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/providers/http/operators/http.py:83: DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+  super().__init__(**kwargs)
+
+[2023-01-09 17:25:07,647] {taskinstance.py:1752} ERROR - Error when executing on_failure_callback
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1750, in _run_finished_callback
+    task.on_failure_callback(context)
+  File "/opt/airflow/dags/utils/Error.py", line 137, in failure_callback
+    failed_alert.execute(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/slack/operators/slack_webhook.py", line 107, in execute
+    self.proxy,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/slack/hooks/slack_webhook.py", line 75, in __init__
+    self.webhook_token = self._get_token(webhook_token, http_conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/slack/hooks/slack_webhook.py", line 98, in _get_token
+    conn = self.get_connection(http_conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack_connection` isn't defined
+[2023-01-09 17:25:07,794] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

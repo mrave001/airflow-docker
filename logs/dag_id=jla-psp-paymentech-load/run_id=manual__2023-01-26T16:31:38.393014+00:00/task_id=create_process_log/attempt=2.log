@@ -1,0 +1,102 @@
+[2023-01-26 16:34:52,700] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.create_process_log manual__2023-01-26T16:31:38.393014+00:00 [queued]>
+[2023-01-26 16:34:52,753] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: jla-psp-paymentech-load.create_process_log manual__2023-01-26T16:31:38.393014+00:00 [queued]>
+[2023-01-26 16:34:52,754] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 16:34:52,755] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2023-01-26 16:34:52,756] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-26 16:34:52,826] {taskinstance.py:1397} INFO - Executing <Task(TeradataOperator): create_process_log> on 2023-01-26 16:31:38.393014+00:00
+[2023-01-26 16:34:52,846] {standard_task_runner.py:52} INFO - Started process 1130 to run task
+[2023-01-26 16:34:52,859] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'jla-psp-paymentech-load', 'create_process_log', 'manual__2023-01-26T16:31:38.393014+00:00', '--job-id', '216', '--raw', '--subdir', 'DAGS_FOLDER/jla-psp-paymentech-load.py', '--cfg-path', '/tmp/tmpvqlc63a1', '--error-file', '/tmp/tmphvmccfxe']
+[2023-01-26 16:34:52,864] {standard_task_runner.py:80} INFO - Job 216: Subtask create_process_log
+[2023-01-26 16:34:53,233] {task_command.py:371} INFO - Running <TaskInstance: jla-psp-paymentech-load.create_process_log manual__2023-01-26T16:31:38.393014+00:00 [running]> on host a8cd24867728
+[2023-01-26 16:34:53,983] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=barobinson@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=jla-psp-paymentech-load
+AIRFLOW_CTX_TASK_ID=create_process_log
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-26T16:31:38.393014+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-26T16:31:38.393014+00:00
+[2023-01-26 16:34:53,987] {teradata.py:16} INFO - Executing: 
+    MERGE INTO sandbox.ACCT_JLA_RUN_PROCESS process
+    USING 
+    (
+        SELECT 
+            'a38203e9-9747-433c-af23-a2a4fdafe437' as id,
+            'jla-psp-paymentech-load' as process_name,
+            '2023-01-26T16:31:38.393014+00:00' as start_date,
+            '2023-01-26T16:34:50.200335+00:00' as end_date,
+            'running' as status,
+            '' as error_code,
+            '' as error_desc
+    ) as pend_process 
+    ON process.id = pend_process.id 
+    WHEN MATCHED THEN UPDATE 
+        SET end_dt = pend_process.end_date,
+            status = pend_process.status,
+            error_code = pend_process.error_code,
+            error_desc = pend_process.error_desc,
+            update_dt = CURRENT_TIMESTAMP
+    WHEN NOT MATCHED THEN INSERT 
+    (
+        id,
+        process_name,
+        start_dt,
+        status,
+        insert_dt,
+        update_dt
+    )
+    VALUES
+    (
+        pend_process.id,
+        pend_process.process_name,
+        pend_process.start_date,
+        pend_process.status,
+        CURRENT_TIMESTAMP,
+        CURRENT_TIMESTAMP  
+    );
+[2023-01-26 16:34:53,989] {teradata.py:18} INFO - autocommit: False
+[2023-01-26 16:34:54,024] {base.py:68} INFO - Using connection ID 'teradata' for task execution.
+[2023-01-26 16:35:07,359] {sql.py:365} INFO - Running statement: 
+    MERGE INTO sandbox.ACCT_JLA_RUN_PROCESS process
+    USING 
+    (
+        SELECT 
+            'a38203e9-9747-433c-af23-a2a4fdafe437' as id,
+            'jla-psp-paymentech-load' as process_name,
+            '2023-01-26T16:31:38.393014+00:00' as start_date,
+            '2023-01-26T16:34:50.200335+00:00' as end_date,
+            'running' as status,
+            '' as error_code,
+            '' as error_desc
+    ) as pend_process 
+    ON process.id = pend_process.id 
+    WHEN MATCHED THEN UPDATE 
+        SET end_dt = pend_process.end_date,
+            status = pend_process.status,
+            error_code = pend_process.error_code,
+            error_desc = pend_process.error_desc,
+            update_dt = CURRENT_TIMESTAMP
+    WHEN NOT MATCHED THEN INSERT 
+    (
+        id,
+        process_name,
+        start_dt,
+        status,
+        insert_dt,
+        update_dt
+    )
+    VALUES
+    (
+        pend_process.id,
+        pend_process.process_name,
+        pend_process.start_date,
+        pend_process.status,
+        CURRENT_TIMESTAMP,
+        CURRENT_TIMESTAMP  
+    );, parameters: None
+[2023-01-26 16:35:08,138] {sql.py:374} INFO - Rows affected: 1
+[2023-01-26 16:35:08,881] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=jla-psp-paymentech-load, task_id=create_process_log, execution_date=20230126T163138, start_date=20230126T163452, end_date=20230126T163508
+[2023-01-26 16:35:09,329] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-26 16:35:09,597] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

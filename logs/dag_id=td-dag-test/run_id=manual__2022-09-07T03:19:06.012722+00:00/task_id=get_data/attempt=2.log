@@ -1,0 +1,26 @@
+[2022-10-04 15:34:06,180] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: td-dag-test.get_data manual__2022-09-07T03:19:06.012722+00:00 [queued]>
+[2022-10-04 15:34:06,314] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: td-dag-test.get_data manual__2022-09-07T03:19:06.012722+00:00 [queued]>
+[2022-10-04 15:34:06,321] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 15:34:06,322] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-10-04 15:34:06,325] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 15:34:06,419] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_data> on 2022-09-07 03:19:06.012722+00:00
+[2022-10-04 15:34:06,508] {standard_task_runner.py:52} INFO - Started process 5485 to run task
+[2022-10-04 15:34:06,636] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'td-dag-test', 'get_data', 'manual__2022-09-07T03:19:06.012722+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/td_dag_test.py', '--cfg-path', '/tmp/tmp4qfykwf4', '--error-file', '/tmp/tmpipc691fq']
+[2022-10-04 15:34:06,686] {standard_task_runner.py:80} INFO - Job 184: Subtask get_data
+[2022-10-04 15:34:07,550] {task_command.py:371} INFO - Running <TaskInstance: td-dag-test.get_data manual__2022-09-07T03:19:06.012722+00:00 [running]> on host f2e7b0d61203
+[2022-10-04 15:34:08,310] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mravelo@groupon.com
+AIRFLOW_CTX_DAG_OWNER=FSA
+AIRFLOW_CTX_DAG_ID=td-dag-test
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-07T03:19:06.012722+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-07T03:19:06.012722+00:00
+[2022-10-04 15:34:08,352] {logging_mixin.py:115} INFO - --- INFO: Move data process started ---
+[2022-10-04 15:34:08,419] {base.py:68} INFO - Using connection ID 'teradata' for task execution.
+[2022-10-04 15:34:23,184] {local_task_job.py:221} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2022-10-04 15:34:23,219] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 5485. PIDs of all processes in the group: [5485]
+[2022-10-04 15:34:23,223] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 5485
+[2022-10-04 15:34:26,706] {process_utils.py:75} INFO - Process psutil.Process(pid=5485, status='terminated', exitcode=143, started='15:34:06') (5485) terminated with exit code 143

@@ -1,0 +1,224 @@
+[2023-01-09 17:22:45,961] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:22:45,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:22:45,996] {logging_mixin.py:115} INFO - [2023-01-09 17:22:45,990] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:22:50,059] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:22:50,071] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:22:50,082] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:22:50,111] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:22:50,753] {logging_mixin.py:115} INFO - [2023-01-09 17:22:50,753] {manager.py:508} INFO - Created Permission View: can edit on DAG:jla-data-mover
+[2023-01-09 17:22:50,797] {logging_mixin.py:115} INFO - [2023-01-09 17:22:50,797] {manager.py:508} INFO - Created Permission View: can delete on DAG:jla-data-mover
+[2023-01-09 17:22:50,821] {logging_mixin.py:115} INFO - [2023-01-09 17:22:50,821] {manager.py:508} INFO - Created Permission View: can read on DAG:jla-data-mover
+[2023-01-09 17:22:50,823] {logging_mixin.py:115} INFO - [2023-01-09 17:22:50,822] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:22:50,874] {logging_mixin.py:115} INFO - [2023-01-09 17:22:50,873] {dag.py:2439} INFO - Creating ORM DAG for jla-data-mover
+[2023-01-09 17:22:50,932] {logging_mixin.py:115} INFO - [2023-01-09 17:22:50,932] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:22:50,985] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 5.066 seconds
+[2023-01-09 17:23:21,690] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:23:21,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:23:21,694] {logging_mixin.py:115} INFO - [2023-01-09 17:23:21,694] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:23:24,035] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:23:24,043] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:23:24,052] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:23:24,083] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:23:24,743] {logging_mixin.py:115} INFO - [2023-01-09 17:23:24,741] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:23:24,843] {logging_mixin.py:115} INFO - [2023-01-09 17:23:24,842] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:23:24,887] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.204 seconds
+[2023-01-09 17:23:55,116] {processor.py:153} INFO - Started process (PID=380) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:23:55,125] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:23:55,129] {logging_mixin.py:115} INFO - [2023-01-09 17:23:55,129] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:23:57,210] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:23:57,219] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:23:57,230] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:23:57,256] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:23:57,975] {logging_mixin.py:115} INFO - [2023-01-09 17:23:57,973] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:23:58,096] {logging_mixin.py:115} INFO - [2023-01-09 17:23:58,096] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:23:58,163] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.058 seconds
+[2023-01-09 17:24:28,904] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:24:28,906] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:24:28,908] {logging_mixin.py:115} INFO - [2023-01-09 17:24:28,908] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:24:31,560] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:24:31,569] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:24:31,580] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:24:31,603] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:24:32,195] {logging_mixin.py:115} INFO - [2023-01-09 17:24:32,193] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:24:32,284] {logging_mixin.py:115} INFO - [2023-01-09 17:24:32,283] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:24:32,329] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.434 seconds
+[2023-01-09 17:25:04,020] {processor.py:153} INFO - Started process (PID=610) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:25:04,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:25:04,025] {logging_mixin.py:115} INFO - [2023-01-09 17:25:04,025] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:25:06,128] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:25:06,141] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:25:06,155] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:25:06,185] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:25:06,821] {logging_mixin.py:115} INFO - [2023-01-09 17:25:06,820] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:25:06,903] {logging_mixin.py:115} INFO - [2023-01-09 17:25:06,903] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:25:06,957] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.948 seconds
+[2023-01-09 17:25:37,319] {processor.py:153} INFO - Started process (PID=723) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:25:37,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:25:37,324] {logging_mixin.py:115} INFO - [2023-01-09 17:25:37,323] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:25:39,393] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:25:39,401] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:25:39,411] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:25:39,434] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:25:39,936] {logging_mixin.py:115} INFO - [2023-01-09 17:25:39,934] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:25:40,030] {logging_mixin.py:115} INFO - [2023-01-09 17:25:40,030] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:25:40,073] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.765 seconds
+[2023-01-09 17:26:10,319] {processor.py:153} INFO - Started process (PID=833) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:26:10,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:26:10,324] {logging_mixin.py:115} INFO - [2023-01-09 17:26:10,324] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:26:12,319] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:26:12,327] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:26:12,336] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:26:12,357] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:26:12,846] {logging_mixin.py:115} INFO - [2023-01-09 17:26:12,845] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:26:12,931] {logging_mixin.py:115} INFO - [2023-01-09 17:26:12,931] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:26:12,977] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.644 seconds
+[2023-01-09 17:26:43,745] {processor.py:153} INFO - Started process (PID=944) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:26:43,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:26:43,750] {logging_mixin.py:115} INFO - [2023-01-09 17:26:43,749] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:26:46,155] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:26:46,166] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:26:46,183] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:26:46,221] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:26:46,775] {logging_mixin.py:115} INFO - [2023-01-09 17:26:46,773] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:26:46,865] {logging_mixin.py:115} INFO - [2023-01-09 17:26:46,865] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:26:46,916] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.181 seconds
+[2023-01-09 17:27:17,245] {processor.py:153} INFO - Started process (PID=1053) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:27:17,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:27:17,253] {logging_mixin.py:115} INFO - [2023-01-09 17:27:17,253] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:27:19,632] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:27:19,641] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:27:19,650] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:27:19,672] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:27:20,213] {logging_mixin.py:115} INFO - [2023-01-09 17:27:20,212] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:27:20,302] {logging_mixin.py:115} INFO - [2023-01-09 17:27:20,302] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:27:20,349] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.118 seconds
+[2023-01-09 17:27:51,528] {processor.py:153} INFO - Started process (PID=1168) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:27:51,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:27:51,532] {logging_mixin.py:115} INFO - [2023-01-09 17:27:51,532] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:27:53,531] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:27:53,539] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:27:53,547] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:27:53,572] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:27:54,106] {logging_mixin.py:115} INFO - [2023-01-09 17:27:54,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:27:54,217] {logging_mixin.py:115} INFO - [2023-01-09 17:27:54,216] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:27:54,273] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.753 seconds
+[2023-01-09 17:28:25,244] {processor.py:153} INFO - Started process (PID=1288) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:28:25,252] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:28:25,256] {logging_mixin.py:115} INFO - [2023-01-09 17:28:25,256] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:28:27,524] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:28:27,531] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:28:27,539] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:28:27,558] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:28:28,033] {logging_mixin.py:115} INFO - [2023-01-09 17:28:28,032] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:28:28,120] {logging_mixin.py:115} INFO - [2023-01-09 17:28:28,119] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:28:28,162] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.926 seconds
+[2023-01-09 17:28:58,657] {processor.py:153} INFO - Started process (PID=1406) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:28:58,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:28:58,663] {logging_mixin.py:115} INFO - [2023-01-09 17:28:58,663] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:29:00,880] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:29:00,887] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:29:00,896] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:29:00,916] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:29:01,388] {logging_mixin.py:115} INFO - [2023-01-09 17:29:01,387] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:29:01,470] {logging_mixin.py:115} INFO - [2023-01-09 17:29:01,470] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:29:01,512] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.866 seconds
+[2023-01-09 17:29:31,613] {processor.py:153} INFO - Started process (PID=1515) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:29:31,615] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:29:31,617] {logging_mixin.py:115} INFO - [2023-01-09 17:29:31,617] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:29:33,737] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:29:33,745] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:29:33,753] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:29:33,772] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:29:34,230] {logging_mixin.py:115} INFO - [2023-01-09 17:29:34,229] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:29:34,313] {logging_mixin.py:115} INFO - [2023-01-09 17:29:34,312] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:29:34,359] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.755 seconds
+[2023-01-09 17:30:04,575] {processor.py:153} INFO - Started process (PID=1626) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:30:04,578] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:30:04,581] {logging_mixin.py:115} INFO - [2023-01-09 17:30:04,580] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:30:07,035] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:30:07,045] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:30:07,056] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:30:07,083] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:30:07,652] {logging_mixin.py:115} INFO - [2023-01-09 17:30:07,651] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:30:07,740] {logging_mixin.py:115} INFO - [2023-01-09 17:30:07,739] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:30:07,784] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.230 seconds
+[2023-01-09 17:30:37,996] {processor.py:153} INFO - Started process (PID=1738) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:30:38,000] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:30:38,002] {logging_mixin.py:115} INFO - [2023-01-09 17:30:38,002] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:30:40,288] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:30:40,297] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:30:40,307] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:30:40,330] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:30:40,869] {logging_mixin.py:115} INFO - [2023-01-09 17:30:40,868] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:30:40,978] {logging_mixin.py:115} INFO - [2023-01-09 17:30:40,977] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:30:41,026] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.043 seconds
+[2023-01-09 17:31:11,414] {processor.py:153} INFO - Started process (PID=1851) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:31:11,417] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:31:11,419] {logging_mixin.py:115} INFO - [2023-01-09 17:31:11,419] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:31:13,543] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:31:13,551] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:31:13,561] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:31:13,582] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:31:14,096] {logging_mixin.py:115} INFO - [2023-01-09 17:31:14,095] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:31:14,188] {logging_mixin.py:115} INFO - [2023-01-09 17:31:14,188] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:31:14,237] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.832 seconds
+[2023-01-09 17:31:44,372] {processor.py:153} INFO - Started process (PID=1965) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:31:44,374] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:31:44,377] {logging_mixin.py:115} INFO - [2023-01-09 17:31:44,377] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:31:46,783] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:31:46,793] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:31:46,803] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:31:46,824] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:31:47,481] {logging_mixin.py:115} INFO - [2023-01-09 17:31:47,479] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:31:47,623] {logging_mixin.py:115} INFO - [2023-01-09 17:31:47,622] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:31:47,743] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.383 seconds
+[2023-01-09 17:32:18,193] {processor.py:153} INFO - Started process (PID=2096) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:32:18,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:32:18,198] {logging_mixin.py:115} INFO - [2023-01-09 17:32:18,198] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:32:20,494] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:32:20,504] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:32:20,515] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:32:20,538] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:32:21,065] {logging_mixin.py:115} INFO - [2023-01-09 17:32:21,064] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:32:21,171] {logging_mixin.py:115} INFO - [2023-01-09 17:32:21,171] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:32:21,291] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 3.106 seconds
+[2023-01-09 17:32:51,406] {processor.py:153} INFO - Started process (PID=2211) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:32:51,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:32:51,410] {logging_mixin.py:115} INFO - [2023-01-09 17:32:51,410] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:32:53,213] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:32:53,222] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:32:53,232] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:32:53,262] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:32:53,774] {logging_mixin.py:115} INFO - [2023-01-09 17:32:53,773] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:32:53,873] {logging_mixin.py:115} INFO - [2023-01-09 17:32:53,873] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:32:53,921] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.524 seconds
+[2023-01-09 17:33:24,522] {processor.py:153} INFO - Started process (PID=2326) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:33:24,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:33:24,526] {logging_mixin.py:115} INFO - [2023-01-09 17:33:24,526] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:33:26,408] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:33:26,415] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:33:26,425] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:33:26,448] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:33:27,007] {logging_mixin.py:115} INFO - [2023-01-09 17:33:27,006] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:33:27,110] {logging_mixin.py:115} INFO - [2023-01-09 17:33:27,110] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:33:27,163] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.650 seconds
+[2023-01-09 17:33:57,599] {processor.py:153} INFO - Started process (PID=2445) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:33:57,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:33:57,604] {logging_mixin.py:115} INFO - [2023-01-09 17:33:57,604] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:33:59,599] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:33:59,612] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:33:59,633] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:33:59,667] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:34:00,252] {logging_mixin.py:115} INFO - [2023-01-09 17:34:00,251] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:34:00,357] {logging_mixin.py:115} INFO - [2023-01-09 17:34:00,357] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:34:00,406] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.815 seconds
+[2023-01-09 17:34:30,745] {processor.py:153} INFO - Started process (PID=2565) to work on /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:34:30,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/Mover/dag.py for tasks to queue
+[2023-01-09 17:34:30,749] {logging_mixin.py:115} INFO - [2023-01-09 17:34:30,749] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:34:32,596] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:34:32,603] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:156 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:34:32,612] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py:131 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2023-01-09 17:34:32,634] {processor.py:651} INFO - DAG(s) dict_keys(['jla-data-mover']) retrieved from /opt/airflow/dags/Mover/dag.py
+[2023-01-09 17:34:33,154] {logging_mixin.py:115} INFO - [2023-01-09 17:34:33,153] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-01-09 17:34:33,248] {logging_mixin.py:115} INFO - [2023-01-09 17:34:33,247] {dag.py:2972} INFO - Setting next_dagrun for jla-data-mover to None, run_after=None
+[2023-01-09 17:34:33,299] {processor.py:161} INFO - Processing /opt/airflow/dags/Mover/dag.py took 2.562 seconds
