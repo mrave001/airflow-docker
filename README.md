@@ -1,2 +1,2 @@
 # airflow-docker
-Template project for starting Airflow on a M1 Macbook through Docker
+Custom Docker image for starting Airflow on a PC or Mac (Intel and Apple silicon) through 
